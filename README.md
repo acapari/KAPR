@@ -15,4 +15,11 @@ Assesses the amount of information about the concept contained in the passage. A
 - How much “educational” (or background information) or “essential” information about the concept is included in the passage?
 - Does the snippet provide an answer to “what CONCEPT is?” like questions?
 
+
+Additional guidelines:
+- Passages containing the author’s opinion rather than facts should be labeled 0 on both relevance as well as informativeness.
+- Passages that describe the meaning of the concept clearly, but in the context of a different scientific domain should be scored as 0 for both relevance and informa- tiveness
+- Passages that cover multiple concepts and are relevant to the given domain are scored as 1 for relevance and 1/2 for informativeness.
+
+
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/acapari/KAPR.git">KAPR: Knowledge Acquisition Passage Retrieval Dataset</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.elsevier.com">Elsevier</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
